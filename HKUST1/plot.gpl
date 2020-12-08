@@ -2,7 +2,7 @@
 
 set ylabel "Derivative distribution function, dV/dw"
 set xlabel "Pore width, w / nm"
-plot "psd.txt_gfortran" u ($1*0.1):2 w l t ""
+plot "psd.txt" u ($1*0.1):2 w l t ""
 
 pause -1
 
